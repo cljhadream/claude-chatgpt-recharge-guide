@@ -34,16 +34,21 @@
 
 ---
 
-## Claude Code 直连算力
+## Claude 充值：Pro / Max 5x / Max 20x（稳定方案）
 
-面向日常用 Claude Code 写代码的开发者：
+面向要用 Claude 网页版和 Claude Code 的开发者。与其找 Claude 中转 / 镜像站，不如在**自己的官方账号**上完成 Claude 充值——官方客户端直连 Anthropic 服务器，不经过任何中转节点，这才是长期稳定方案：
 
-- **官方客户端直连，非镜像**，日均约 500 次请求
-- **七档套餐，¥11 起**：按天卡 / 周卡 / 月卡灵活选择
-  - 轻度试用 → 天卡；日常开发 → 月卡；重度重构 / 算法攻坚 → 高倍率档位
+| 档位 | 价格 | 适合谁 |
+| --- | --- | --- |
+| Claude Pro | ¥145/月 | 轻度使用网页版与 Claude Code，日常问答与小型编码任务 |
+| Claude Max 5x | ¥900/月 | 每天 Claude Code 编程数小时的重度个人用户 |
+| Claude Max 20x | ¥1700/月 | 长流程 Agent 任务、团队主力开发，用量约为 Max 5x 的 4 倍 |
+
 - **零凭据接入**：只需提供 Anthropic 官方控制台的 Organization ID（`org_` 开头），它不是密码、不是 API Key，任何人拿到它都无法登录你的账号或读取代码。在 [console.anthropic.com/settings/organization](https://console.anthropic.com/settings/organization) 自行查看复制即可
+- **已有会员可补差价升级**：只质保订阅本身，套餐有效期内会员失效免费补期续保，支持数电发票
+- **规避中转风险**：Claude 中转 / 镜像站的共享额度排队、请求过第三方服务器、站点跑路失联，在本方案中都不存在——对话与代码记录 100% 留在自己账号
 
-**套餐详情与接入步骤：** [Claude Code 算力套餐](https://www.gutast.com/claude-code?utm_source=github&utm_medium=social&utm_campaign=claude_code)
+**套餐详情与开通步骤：** [Claude 充值代充](https://www.gutast.com/claude-code?utm_source=github&utm_medium=social&utm_campaign=claude_code)
 
 ---
 
@@ -91,7 +96,7 @@ Plus 档严格按官网 **$20 美元原价**采购划扣，绝无黑卡 / 盗刷
 <details>
 <summary><b>办理需要提供账号密码吗？</b></summary>
 
-不需要。全程在你自己的账号上完成：你在官方升级会话中发起订阅，专席仅代为完成支付。Claude Code 接入只需要 Organization ID。
+不需要。全程在你自己的账号上完成：你在官方升级会话中发起订阅，专席仅代为完成支付。Claude 充值只需要 Organization ID。
 </details>
 
 <details>
@@ -101,9 +106,9 @@ Plus 档严格按官网 **$20 美元原价**采购划扣，绝无黑卡 / 盗刷
 </details>
 
 <details>
-<summary><b>Claude Code 七档套餐怎么选？</b></summary>
+<summary><b>Claude Pro、Max 5x、Max 20x 怎么选？和 Claude 中转有什么区别？</b></summary>
 
-¥11 起按天 / 周 / 月灵活选择。轻度试用选天卡，日常开发建议月卡，重度重构与算法攻坚建议高倍率档位。详见 [Claude Code 算力套餐](https://www.gutast.com/claude-code?utm_source=github&utm_medium=social&utm_campaign=claude_code)。
+数字代表官方相对 Pro 档的用量倍数：Max 5x 约 5 倍、Max 20x 约 20 倍。轻度用户选 Pro，Claude Code 重度开发选 Max 5x，长流程 Agent 任务选 Max 20x，已有会员可补差价升级。Claude 中转 / 镜像站把请求转发到共享账号，随时可能跑路失联；官方充值代充让你在自己的账号上直连官方服务器，是更稳定的方案。详见 [Claude 充值代充](https://www.gutast.com/claude-code?utm_source=github&utm_medium=social&utm_campaign=claude_code)。
 </details>
 
 更多问题：[完整 FAQ](https://www.gutast.com/faq?utm_source=github&utm_medium=social&utm_campaign=faq)
@@ -133,7 +138,7 @@ Plus 档严格按官网 **$20 美元原价**采购划扣，绝无黑卡 / 盗刷
 
 ## 免责声明
 
-本仓库内容用于技术社区信息分享。Gutast AI 提供的均为 **Anthropic / OpenAI 官方渠道**的订阅代付与算力服务，不提供任何破解、镜像、逆向或黑灰产渠道。请遵守目标服务的官方服务条款与所在地区法律法规。
+本仓库内容用于技术社区信息分享。Gutast AI 提供的均为 **Anthropic / OpenAI 官方渠道**的订阅充值代付服务（Claude Pro / Max 5x / Max 20x、ChatGPT Plus / Codex），不提供任何破解、镜像、逆向、API 中转或黑灰产渠道。请遵守目标服务的官方服务条款与所在地区法律法规。
 
 ## License
 
